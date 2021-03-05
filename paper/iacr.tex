@@ -107,7 +107,7 @@ Note in particular that Pedersen matrix commitments are similarly homomorphic.
 For integers or field elements $i,j$, the Kronecker delta function $\delta(i,j)$ evaluates to $1$ if $i=j$ and $0$ otherwise, where the output is taken to be in the appropriate set.
 
 We sometimes use index subscript notation of the form $i_j$ to indicate the $j$ digit of $i$, where such a decomposition of $i$ is taken base $n$ with padded length $m$:
-$$\sum_{j=0}^m i_j n^j = i$$
+$$\sum_{j=0}^{m-1} i_j n^j = i$$
 This notation will be specified explicitly where confusion may occur.
 
 
